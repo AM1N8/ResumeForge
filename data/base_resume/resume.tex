@@ -1,0 +1,213 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Mohamed Amine Darraj
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Mohamed Amine Darraj} \\ \vspace{1pt}
+    \small \textbf{Artificial Intelligence Engineering Student} \\ \vspace{5pt}
+    \small \faMapMarker* \hspace{.5pt} Meknes, Morocco ~ 
+    \small \faEnvelope \hspace{.5pt} \href{mailto:mohamedaminedarraj@gmail.com}{\underline{mohamedaminedarraj@gmail.com}} ~ 
+    \small \faPhone* \hspace{.5pt} +212 6 39 99 20 64 \\ \vspace{3pt}
+    \small \faGithub \hspace{.5pt} \href{https://github.com/AM1N8}{\underline{GitHub: AM1N8}} ~ 
+    \small \faLinkedin \hspace{.5pt} \href{https://linkedin.com/in/your-profile}{\underline{LinkedIn Profile}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{Passionate AI Engineering Student with expertise in Machine Learning, Deep Learning, and Computer Vision. Currently pursuing advanced engineering studies at ENSAM Meknès with outstanding academic performance. Proven experience in developing intelligent systems, reinforcement learning algorithms, and predictive modeling solutions. Strong foundation in multiple programming languages and AI frameworks with innovative project delivery track record.}
+\vspace{-10pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {ENSAM Meknès}{2024 -- Present}
+      {Engineering Cycle - Artificial Intelligence \& Data Technologies}{}
+    \resumeSubheading
+      {ENSAM Meknès}{2022 -- 2024}
+      {Integrated Preparatory Cycle}{}
+      \resumeItemListStart
+        \resumeItem{14/439 (2nd Year), 23/482 (1st Year)}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Ibn El Haitham Technical High School}{2021 -- 2022}
+      {Baccalaureate in Mathematical Sciences, Option B (Mention: Bien)}{}
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: Python, C++, Java, R, Julia} \\
+     \textbf{AI/ML}{: PyTorch, TensorFlow, Scikit-learn} \\
+     \textbf{Data Science}{: Pandas, NumPy, Matplotlib} \\
+     \textbf{Computer Vision}{: OpenCV, Image Processing} \\
+     \textbf{Web}{: JavaScript, HTML, CSS, SQL} \\
+     \textbf{Tools}{: Git, MATLAB, Jupyter, VS Code, Godot}
+    }}
+ \end{itemize}
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Healthcare Computer Vision System} $|$ \href{https://github.com}{\underline{GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Developed deep learning models for automated bone fracture and chest disease detection}
+            \resumeItem{Built intelligent medical chatbot using NLP for symptom-to-disease mapping}
+            \resumeItem{Achieved high accuracy in medical image classification through model optimization}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Advanced Trajectory Prediction System} $|$ \href{https://github.com}{\underline{GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Engineered ML pipeline for real-time trajectory prediction and motion forecasting}
+            \resumeItem{Applied advanced algorithms for pattern analysis with optimized computational efficiency}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Intelligent Game AI Development} $|$ \href{https://github.com}{\underline{GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Created immersive game in Godot Engine with Q-learning based adaptive AI}
+            \resumeItem{Designed engaging gameplay mechanics with reinforcement learning integration}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Smart Snake Game with AI} $|$ \href{https://github.com}{\underline{GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Developed autonomous Snake game agent using Q-learning reinforcement learning}
+            \resumeItem{Implemented self-improving algorithm demonstrating practical RL applications}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience \& Leadership}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Active Member -- Club Info Gadz'it}{2022 -- Present}
+      {ENSAM Meknès}{}
+      \resumeItemListStart
+        \resumeItem{AI Research Cell: Participated in AI research projects and technical workshops}
+        \resumeItem{Competitive Programming: Engaged in algorithmic problem-solving competitions}
+        \resumeItem{Collaborated on innovative technology projects and peer knowledge-sharing initiatives}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------LANGUAGES & INTERESTS-----------
+\section{Languages \& Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Arabic (Native), French (Professional), English (Professional)} \\
+     \textbf{Core Interests}{: Machine \& Deep Learning, Computer Vision Applications, Reinforcement Learning Systems, Medical AI \& Healthcare Tech, Game Development \& AI}
+    }}
+ \end{itemize}
+\vspace{-16pt}
+
+%-----------QUOTE-----------
+\begin{center}
+    \vspace{5pt}
+    \textit{"Passionate about transforming innovative ideas into intelligent solutions through AI and data technologies."}
+\end{center}
+
+\end{document}

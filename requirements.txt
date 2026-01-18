@@ -1,0 +1,30 @@
+# Web API
+fastapi
+uvicorn
+
+# LLM
+openai
+tiktoken
+
+# Parsing
+pdfplumber
+python-docx
+
+# PDF generation
+reportlab
+
+# Email automation
+yagmail
+imapclient
+
+# DB
+sqlalchemy
+sqlite-utils
+
+# Utils
+python-dotenv
+pydantic
+requests
+
+# Optional analytics
+pandas
